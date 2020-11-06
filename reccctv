@@ -1,0 +1,1 @@
+cvlc -vvv rtsp://192.168.1.173:554/onvif1 --sout-file-format --sout "#file{dst=/home/hexator/Videos/cctv/cctv%d-%m-%Y-%Hh%Mm.mp4}" --run-time=1800 --loop

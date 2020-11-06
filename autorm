@@ -1,0 +1,1 @@
+cd /home/hexator/Videos/cctv && ls -ltc | awk '{ if (!system("test -f " $9)) { size += $5; if (size > 21*2^30 ) system("rm " $9) } }'
